@@ -4,8 +4,13 @@ import helper
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+st.set_page_config(
+   page_title="WA | Chat Analyzer",
+   page_icon="🧊",
+   layout="centered",
+   initial_sidebar_state="expanded",
+)
 st.sidebar.title("WA Chat Analyzer")
-
 st.title("WELCOME TO CHAT ANALYZER")
 
 uploaded_file = st.sidebar.file_uploader("Choose a File")
