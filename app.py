@@ -6,6 +6,8 @@ import seaborn as sns
 
 st.sidebar.title("WA Chat Analyzer")
 
+st.title("WELCOME TO CHAT ANALYZER")
+
 uploaded_file = st.sidebar.file_uploader("Choose a File")
 if uploaded_file is not None:
     bytes_data = uploaded_file.getvalue()
